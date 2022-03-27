@@ -1,0 +1,8 @@
+.navLink {
+  text-decoration: none;
+  &.active {
+    button {
+      font-weight: bold;
+    }
+  }
+}

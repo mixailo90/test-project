@@ -1,7 +1,7 @@
 import './App.scss';
 import FormPage from '../../dynamic-forms/pages/FormPage';
 import { Container } from '@mui/material';
-import Header from '../components/header/Header';
+import Header from '../components/Header';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../../theme';
 import CountriesHome from '../../countries/pages/CountriesHome';

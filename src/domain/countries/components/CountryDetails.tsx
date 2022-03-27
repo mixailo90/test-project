@@ -62,7 +62,11 @@ const CountryDetails = observer(() => {
             </Box>
           </Typography>
         </Tooltip>
-        <RegionDialog open={isDialogOpen} onClose={handleDialogClose} countries={context.getRegionInfo(params.name!)} />
+        <RegionDialog
+          open={isDialogOpen}
+          onClose={handleDialogClose}
+          countries={context.getRegionInfo(params.name ? params.name : '')}
+        />
       </Box>
     </Box>
   );

@@ -2,7 +2,6 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
-import { Drawer } from '@mui/material';
 import NavLink from './NavLink';
 
 function Header() {
@@ -17,12 +16,6 @@ function Header() {
             <Button color="secondary">Countries</Button>
           </NavLink>
         </Toolbar>
-        <Drawer
-          variant="temporary"
-          ModalProps={{
-            keepMounted: true
-          }}
-        />
       </AppBar>
     </Box>
   );
